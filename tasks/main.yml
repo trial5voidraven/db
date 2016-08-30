@@ -1,6 +1,2 @@
 ---
 # tasks file for db
-  - name: install postgresql
-    yum: name=postgresql state=latest
-    become: true
-    become_method: sudo
