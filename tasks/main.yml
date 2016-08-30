@@ -2,4 +2,4 @@
 # tasks file for db
 ---
   - name: install postgresql
-    yum: names=postgresql state=latest
+    yum: name=postgresql state=latest
